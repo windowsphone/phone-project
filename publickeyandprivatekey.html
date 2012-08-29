@@ -1,0 +1,21 @@
+<html>
+<head><title>The way of creating public key and private key</title></head>
+<body><b>The way of creating public key and private key</b>
+<ol>
+<li>open the terminal
+
+<li>Switch to the root user:sudo su
+
+<li>Generate the key:ssh-keygen
+
+<li>Enter the .ssh folder and list its files:cd /root/.ssh/;ll
+
+<li>Copy the key to the server .ssh:scp id_rsa.pub 183.175.17.41:/root/.ssh/
+
+<li>To connect to the server:ssh 183.175.17.41
+
+<li>Enter the server's .ssh folder and list its files:cd /root/.ssh/;ll
+
+<li>The key is appended to the authorized_keys file:cat id_rsa.pub>>authorized_keys
+</ol>
+</body>
