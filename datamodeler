@@ -1,0 +1,5 @@
+1.打开datamodeler;
+2.选择Relational_1,在工具栏点击建表工具，出现表格属性的窗口，填表名,Columns,Primary Key,Foreign等。依次建三个表，表名是Student,Course,Student-Course;
+3.保存视图S-C.dmd
+4.生成脚本文件，选择文件，export,DDL File,出现一个新的窗口，点Generate,是脚本文件，保存nj。
+、
